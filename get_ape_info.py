@@ -15,7 +15,7 @@ with open('ape_abi.json', 'r') as f:
 
 ############################
 # Connect to an Ethereum node
-api_url = ""  # YOU WILL NEED TO PROVIDE THE URL OF AN ETHEREUM NODE
+api_url = "https://mainnet.infura.io/v3/78747d4211ba4080840c7c13d4e56776"
 provider = HTTPProvider(api_url)
 web3 = Web3(provider)
 
